@@ -1,9 +1,37 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import FavoriteCats from './components/favoriteCats'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    console.log('Hey,Rick')
+    return (
+      <main>
+        <header>
+          <nav className="navigation">
+            <a className="octodex" href="">
+              Octodex
+            </a>
+            <a className="home" href="">
+              Home
+            </a>
+            <a className="faq" href="">
+              FAQ
+            </a>
+            <a className="twitter" href="">
+              Follow us on Twitter
+            </a>
+            <a className="github" href="">
+              Back to Github.com
+            </a>
+          </nav>
+        </header>
+        <section className="image-container">
+          <div className="cat-pic-container">
+            <FavoriteCats />
+          </div>
+        </section>
+      </main>
+    )
   }
 }
 
