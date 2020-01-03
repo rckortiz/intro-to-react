@@ -36,12 +36,24 @@ body {
 }
 
 .image-container {
+  display: flex; 
   height: 50rem;
   background-color: lightgray;
 }
 
-.cat-pic-container {
+/* .cat-pic-container {
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
+} */
+
+.cat-pic-container ul {
+  display: flex; 
+  list-style-type: none; 
+}
+
+img {
+  width: 10rem;
+  padding: 1rem;
+
 }
