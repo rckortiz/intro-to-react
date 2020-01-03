@@ -44,4 +44,14 @@ body {
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
+  flex-direction: row;
+}
+
+li {
+  height: 20rem;
+}
+
+.images {
+  height: 2rem;
+  width: 2rem;
 }
