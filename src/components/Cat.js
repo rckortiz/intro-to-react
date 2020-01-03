@@ -10,8 +10,8 @@ class Cat extends Component {
           alt={this.props.imageAlt}
         />
         <section>
-          <h2>{this.props.artistName}</h2>
-          <q>{this.props.number}</q>
+          <h2>{this.props.name}</h2>
+          <span>{this.props.number}</span>
         </section>
       </li>
     )

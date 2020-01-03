@@ -45,6 +45,7 @@ body {
   display: flex;
   overflow: auto;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 /* .cat-pic-container {

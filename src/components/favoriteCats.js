@@ -17,43 +17,59 @@ import hula from '../images/hula_loop_octodex03.gif'
 const catArr = [
   {
     imageUrl: defunktocat,
-    imageAlt: 'defunktocat'
+    imageAlt: 'defunktocat',
+    number: `#1`,
+    name: 'Defunctocat'
   },
   {
     imageUrl: dojocat,
-    imageAlt: 'dojocat'
+    imageAlt: 'dojocat',
+    number: `#2`,
+    name: 'DojoCat'
   },
   {
     imageUrl: picat,
-    imageAlt: 'picat'
+    imageAlt: 'picat',
+    number: `#3`,
+    name: 'Picat'
   },
   {
     imageUrl: megaCat,
-    imageAlt: 'mega-cat'
+    imageAlt: 'mega-cat',
+    number: `#4`,
+    name: 'Megacat'
   },
   {
     imageUrl: nyantocat,
-    imageAlt: 'nyantocat'
+    imageAlt: 'nyantocat',
+    number: `#5`,
+    name: 'Nyantocat'
   },
   {
     imageUrl: trekkie,
-    imageAlt: 'trekkie'
+    imageAlt: 'trekkie',
+    number: `#6`,
+    name: 'Trekkie'
   },
   {
     imageUrl: blackto,
-    imageAlt: 'blackto'
+    imageAlt: 'blackto',
+    name: 'Blacktocat'
   },
   {
     imageUrl: boxer,
-    imageAlt: 'boxer'
+    imageAlt: 'boxer',
+    name: 'boxer'
   },
   {
     imageUrl: brenna,
-    imageAlt: 'brenna'
+    imageAlt: 'brenna',
+    name: 'brenna'
   },
   {
     imageUrl: film,
-    imageAlt: 'film'
+    imageAlt: 'film',
+    name: 'FilmtoCat'
   },
   {
     imageUrl: fin,
@@ -70,7 +86,14 @@ class FavoriteCats extends Component {
     return (
       <ul>
         {catArr.map(cats => {
-          return <Cat imageUrl={cats.imageUrl} imageAlt={cats.imageAlt} />
+          return (
+            <Cat
+              imageUrl={cats.imageUrl}
+              imageAlt={cats.imageAlt}
+              number={cats.number}
+              name={cats.name}
+            />
+          )
         })}
       </ul>
     )
