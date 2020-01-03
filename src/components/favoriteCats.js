@@ -7,6 +7,12 @@ import picat from '../images/jean-luc-picat.jpg'
 import megaCat from '../images/megaCat.jpg'
 import nyantocat from '../images/nyantocat.gif'
 import trekkie from '../images/trekkie.jpg'
+import blackto from '../images/blacktocats.png'
+import boxer from '../images/boxertocat_octodex.jpg'
+import brenna from '../images/Brennatocat.png'
+import film from '../images/filmtocats.png'
+import fin from '../images/Fintechtocat.png'
+import hula from '../images/hula_loop_octodex03.gif'
 
 const catArr = [
   {
@@ -32,6 +38,30 @@ const catArr = [
   {
     imageUrl: trekkie,
     imageAlt: 'trekkie'
+  },
+  {
+    imageUrl: blackto,
+    imageAlt: 'blackto'
+  },
+  {
+    imageUrl: boxer,
+    imageAlt: 'boxer'
+  },
+  {
+    imageUrl: brenna,
+    imageAlt: 'brenna'
+  },
+  {
+    imageUrl: film,
+    imageAlt: 'film'
+  },
+  {
+    imageUrl: fin,
+    imageAlt: 'fin'
+  },
+  {
+    imageUrl: hula,
+    imageAlt: 'hula'
   }
 ]
 

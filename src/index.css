@@ -36,22 +36,29 @@ body {
 }
 
 .image-container {
+  display: flex;
   height: 50rem;
   background-color: lightgray;
 }
 
-.cat-pic-container {
+.image-container ul {
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+/* .cat-pic-container {
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
-  flex-direction: row;
-}
+} */
 
-li {
-  height: 20rem;
-}
+/* .cat-pic-container ul {
+  display: flex;
+  list-style-type: none;
+} */
 
-.images {
-  height: 2rem;
-  width: 2rem;
+img {
+  width: 10rem;
+  padding: 1rem;
 }

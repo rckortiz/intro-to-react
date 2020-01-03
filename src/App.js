@@ -26,9 +26,7 @@ class App extends Component {
           </nav>
         </header>
         <section className="image-container">
-          <div className="cat-pic-container">
-            <FavoriteCats />
-          </div>
+          <FavoriteCats />
         </section>
       </main>
     )
