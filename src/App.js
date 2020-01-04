@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FavoriteCats from './components/favoriteCats'
+import GithubLogo from './images/githubLogo.png'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <a className="faq" href="">
               FAQ
             </a>
+            <img className="githubLogo" src={GithubLogo} />
             <a className="twitter" href="">
               Follow us on Twitter
             </a>

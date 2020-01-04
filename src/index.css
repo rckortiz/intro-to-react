@@ -19,21 +19,21 @@ body {
   height: 7rem;
 }
 
-.navigation .octodex {
+/* .navigation .octodex {
   position: relative;
   margin-right: 20rem;
-}
+} */
 
-.navigation .home {
+/* .navigation .home {
   position: relative;
   right: 20rem;
   flex-direction: ;
-}
+} */
 
-.navigation .faq {
+/* .navigation .faq {
   position: relative;
   right: 20rem;
-}
+} */
 
 .image-container {
   display: flex;
@@ -46,6 +46,10 @@ body {
   overflow: auto;
   flex-wrap: wrap;
   list-style-type: none;
+}
+
+.githubLogo {
+  width: 13rem;
 }
 
 /* .cat-pic-container {

@@ -14,29 +14,33 @@ import film from '../images/filmtocats.png'
 import fin from '../images/Fintechtocat.png'
 import hula from '../images/hula_loop_octodex03.gif'
 
+
+
+
+
 const catArr = [
   {
     imageUrl: defunktocat,
     imageAlt: 'defunktocat',
-    number: `#1`,
+    number: '#1',
     name: 'Defunctocat'
   },
   {
     imageUrl: dojocat,
     imageAlt: 'dojocat',
-    number: `#2`,
+    number: '#2',
     name: 'DojoCat'
   },
   {
     imageUrl: picat,
     imageAlt: 'picat',
-    number: `#3`,
+    number: '#3',
     name: 'Picat'
   },
   {
     imageUrl: megaCat,
     imageAlt: 'mega-cat',
-    number: `#4`,
+    number: "#4", 
     name: 'Megacat'
   },
   {
@@ -54,17 +58,20 @@ const catArr = [
   {
     imageUrl: blackto,
     imageAlt: 'blackto',
-    name: 'Blacktocat'
+    name: 'Blacktocat',
+    number: `#7`
   },
   {
     imageUrl: boxer,
     imageAlt: 'boxer',
-    name: 'boxer'
+    name: 'boxer',
+    number: '#8'
   },
   {
     imageUrl: brenna,
     imageAlt: 'brenna',
     name: 'brenna'
+    
   },
   {
     imageUrl: film,
@@ -73,12 +80,15 @@ const catArr = [
   },
   {
     imageUrl: fin,
-    imageAlt: 'fin'
+    imageAlt: 'fin', 
+    name: 'Fintocat'
   },
   {
     imageUrl: hula,
-    imageAlt: 'hula'
-  }
+    imageAlt: 'hula',
+    name: 'HulaCat'
+  }, 
+  
 ]
 
 class FavoriteCats extends Component {
