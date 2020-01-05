@@ -19,7 +19,7 @@ class App extends Component {
               FAQ
             </a>
             <img className="githubLogo" src={GithubLogo} />
-            <a className="twitter" href="">
+            <a className="twitter" href="https://twitter.com/githubdesign">
               Follow us on Twitter
             </a>
             <a className="github" href="">

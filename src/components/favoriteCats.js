@@ -22,55 +22,56 @@ const catArr = [
   {
     imageUrl: defunktocat,
     imageAlt: 'defunktocat',
-    number: '#1',
+    number: "#1",
     name: 'Defunctocat'
   },
   {
     imageUrl: dojocat,
     imageAlt: 'dojocat',
-    number: '#2',
+    number: "#2",
     name: 'DojoCat'
   },
   {
     imageUrl: picat,
     imageAlt: 'picat',
-    number: '#3',
+    number: "#3:",
     name: 'Picat'
   },
   {
     imageUrl: megaCat,
     imageAlt: 'mega-cat',
-    number: "#4", 
+    number: "#4:", 
     name: 'Megacat'
   },
   {
     imageUrl: nyantocat,
     imageAlt: 'nyantocat',
-    number: `#5`,
+    number: "#5:",
     name: 'Nyantocat'
   },
   {
     imageUrl: trekkie,
     imageAlt: 'trekkie',
-    number: `#6`,
+    number: "#6",
     name: 'Trekkie'
   },
   {
     imageUrl: blackto,
     imageAlt: 'blackto',
     name: 'Blacktocat',
-    number: `#7`
+    number: "#7:"
   },
   {
     imageUrl: boxer,
     imageAlt: 'boxer',
-    name: 'boxer',
-    number: '#8'
+    name: 'Boxer',
+    number: "#8:"
   },
   {
     imageUrl: brenna,
     imageAlt: 'brenna',
-    name: 'brenna'
+    name: 'Brenna', 
+    number: "#9:"
     
   },
   {
@@ -95,9 +96,10 @@ class FavoriteCats extends Component {
   render() {
     return (
       <ul>
-        {catArr.map(cats => {
+        {catArr.map((cats, i) => {
           return (
             <Cat
+              key = {i}
               imageUrl={cats.imageUrl}
               imageAlt={cats.imageAlt}
               number={cats.number}
