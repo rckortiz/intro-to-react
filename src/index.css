@@ -36,36 +36,34 @@ body {
   right: 20rem;
 } */
 
-.image-container {
+.image-container ul {
   display: flex;
-  height: 50rem;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  height: 100%;
   background-color: lightgray;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 3rem;
+
+  
   
 }
 
-.image-container ul {
-  display: flex;
-  overflow: auto;
-  flex-wrap: wrap;
-  list-style-type: none;
-}
+
 
 .githubLogo {
   width: 13rem;
 }
 
-/* .cat-pic-container {
-  display: flex;
-  justify-content: space-between;
+
+
+
+
+.images{
+ 
+  width: 10rem; 
+  
   border: 1px solid red;
-} */
-
-/* .cat-pic-container ul {
-  display: flex;
-  list-style-type: none;
-} */
-
-img {
-  width: 10rem;
-  padding: 1rem;
+  background-color: white; 
 }
